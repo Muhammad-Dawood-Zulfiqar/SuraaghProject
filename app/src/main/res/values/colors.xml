@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basics -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#595959</color>
+
+    <!-- New Color Palette: Cool Navy & Gray Blues -->
+    <color name="colorPrimary">#394867</color>           <!-- Dark muted blue-gray -->
+    <color name="colorPrimaryVariant">#212A3E</color>    <!-- Very dark navy -->
+    <color name="colorOnPrimary">#FFFFFF</color>         <!-- White text on primary -->
+
+    <color name="colorSecondary">#9BA4B5</color>         <!-- Soft cool grayish blue -->
+    <color name="colorSecondaryVariant">#394867</color>  <!-- Dark muted blue-gray -->
+    <color name="colorOnSecondary">#212A3E</color>       <!-- Very dark navy text -->
+
+    <color name="colorBackground">#F1F6F9</color>        <!-- Very light cool gray-blue background -->
+    <color name="colorSurface">#FFFFFF</color>           <!-- White surfaces -->
+    <color name="colorOnSurface">#212A3E</color>         <!-- Very dark navy text -->
+
+    <!-- Status Colors (unchanged for semantic clarity) -->
+    <color name="status_lost">#D32F2F</color>            <!-- Red -->
+    <color name="status_found">#388E3C</color>           <!-- Green -->
+    <color name="status_pending">#757575</color>         <!-- Gray -->
+
+    <!-- Background tints for status -->
+    <color name="status_lost_bg">#FFEBEE</color>         <!-- Light Red -->
+    <color name="status_found_bg">#E8F5E9</color>        <!-- Light Green -->
+
+    <!-- Message tick colors -->
+    <color name="tick_read">#394867</color>              <!-- Dark muted blue-gray -->
+    <color name="tick_unread">#757575</color>            <!-- Gray -->
+    <color name="tick_delivered">#9BA4B5</color>         <!-- Soft cool grayish blue -->
+
+    <!-- Gray shades -->
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_400">#BDBDBD</color>
+    <color name="gray_600">#757575</color>
+
+    <!-- Bottom Navigation -->
+    <color name="bottom_nav_selected">#394867</color>    <!-- Dark muted blue-gray -->
+    <color name="bottom_nav_unselected">#757575</color>  <!-- Gray -->
+
+    <!-- Additional colors from the palette for consistency -->
+    <color name="light_background">#F1F6F9</color>       <!-- Very light cool gray-blue -->
+    <color name="medium_light">#9BA4B5</color>           <!-- Soft cool grayish blue -->
+    <color name="medium_blue">#394867</color>            <!-- Dark muted blue-gray -->
+    <color name="dark_accent">#212A3E</color>            <!-- Very dark navy -->
+
+    <!-- Additional utility colors -->
+    <color name="transparent_black_20">#33000000</color>
+    <color name="transparent_white_20">#33FFFFFF</color>
+</resources>

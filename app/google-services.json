@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "163292624766",
+    "firebase_url": "https://suraaghh-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "suraaghh",
+    "storage_bucket": "suraaghh.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163292624766:android:8afa09f1b335519316e52f",
+        "android_client_info": {
+          "package_name": "com.example.suraagh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163292624766-vvjnp62gd7211b09jhme5ldqcfdnr0og.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKVDdcXp7CNAQMDIXmCKDCDWqSob2UXbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163292624766-vvjnp62gd7211b09jhme5ldqcfdnr0og.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163292624766:android:917f618432b880d016e52f",
+        "android_client_info": {
+          "package_name": "com.example.suraagh_deliverable_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163292624766-vvjnp62gd7211b09jhme5ldqcfdnr0og.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKVDdcXp7CNAQMDIXmCKDCDWqSob2UXbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163292624766-vvjnp62gd7211b09jhme5ldqcfdnr0og.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

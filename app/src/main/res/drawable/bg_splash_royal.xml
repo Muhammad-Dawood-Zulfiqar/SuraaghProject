@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:type="radial"
+        android:gradientRadius="800dp"
+        android:centerX="0.5"
+        android:centerY="0.4"
+        android:startColor="#42A5F5"
+        android:centerColor="#1976D2"
+        android:endColor="#0D47A1" />
+
+    <!-- Optional: Adds a subtle noise/dither effect if supported,
+         otherwise it's just a smooth premium gradient -->
+</shape>
