@@ -1,23 +1,22 @@
-Here is a **clean, professional, submission-ready README** version of your project:
+# Suraagh — Lost & Found Mobile Application
 
 ---
 
-````markdown
-# Suraagh — Lost & Found Mobile Application
+## Overview
 
-##  Overview
 Suraagh is an Android-based Lost & Found platform designed to help users report, search, and manage lost or found items efficiently. The application provides secure authentication, real-time data handling, and a structured dashboard for managing posts. It leverages Firebase services for backend support and scalability.
 
 ---
 
-##  Team Members
+## Team Members
+
 - Abdullah Ahmad (23L-0629)  
 - Ch. M. Dawood (23L-0918)  
 - M. Saad Aslam (23L-0992)
 
 ---
 
-##  Tech Stack
+## Tech Stack
 
 **Frontend:**  
 - Android (Java, XML)
@@ -34,32 +33,31 @@ Suraagh is an Android-based Lost & Found platform designed to help users report,
 
 ---
 
-##  Features
+## Features
+
 - Secure user authentication (signup, login, password reset)
 - User profile management
-- Create, update, and manage lost/found posts (to be added)
-- Real-time data synchronization(to be added)
-- Push notifications via FCM(to be added)
+- Create, update, and manage lost/found posts
+- Real-time data synchronization
+- Push notifications via FCM
 - Local caching using SharedPreferences
 - Clean dashboard-based UI
 
 ---
 
-##  How to Run
+## How to Run
 
-###  Prerequisites
+### Prerequisites
 - Android Studio (latest version recommended)
 - JDK 8 or higher
 - Git installed
 - Firebase project configured
 
----
+### Clone Repository
 
-###  Clone Repository
 ```bash
 git clone https://github.com/Muhammad-Dawood-Zulfiqar/SuraaghProject.git
 cd SuraaghProject
-````
 
 ---
 
@@ -85,7 +83,7 @@ app/
 
 ---
 
-### 📱 Open in Android Studio
+###  Open in Android Studio
 
 1. Open **Android Studio**
 2. Click **Open**
