@@ -28,9 +28,6 @@ Suraagh is an Android-based Lost & Found platform designed to help users report,
 - Firebase Cloud Messaging (FCM)  
 - Node.js (Deployed on Vercel)
 
-**Storage:**  
-- Firebase Storage  
-
 ---
 
 ## Features
@@ -119,13 +116,6 @@ File → Sync Project with Gradle Files
 * **Gradle build failed:** Ensure internet connection and updated Gradle version
 * **Firebase errors:** Verify `google-services.json` is correctly placed in `/app`
 * **App crashes:** Check Logcat for missing permissions or misconfiguration
-
----
-
-##  Notes
-
-* Ensure Firebase rules are properly configured for read/write access
-* Keep API keys secure and do not expose in public repositories
 
 ---
 
