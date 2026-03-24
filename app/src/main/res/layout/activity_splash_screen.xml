@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <!-- The Content Container -->
+    <LinearLayout
+        android:id="@+id/logoContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4">
+
+        <!-- Logo with Elevation/Shadow for 3D feel -->
+        <ImageView
+            android:id="@+id/ivSplashLogo"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/ic_logo1"
+            android:contentDescription="Suraagh Logo"
+            android:elevation="12dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- App Title: Tracking/LetterSpacing makes it look expensive -->
+        <TextView
+            android:id="@+id/tvAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SURAAGH"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:letterSpacing="0.25"
+            android:shadowColor="#40000000"
+            android:shadowDx="0"
+            android:shadowDy="8"
+            android:shadowRadius="16" />
+
+        <!-- Primary Accent Line -->
+        <View
+            android:layout_width="60dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/medium_light"
+            android:elevation="4dp"/>
+
+        <TextView
+            android:id="@+id/tvTagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Search. Find. Reunite."
+            android:textColor="#E0E0E0"
+            android:textSize="14sp"
+            android:letterSpacing="0.15"
+            android:fontFamily="sans-serif-light" />
+
+    </LinearLayout>
+
+    <!-- Version Info -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Version 1.0"
+        android:textColor="#80FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
