@@ -1,4 +1,4 @@
-package com.example.suraagh.ui.auth.contract;
+package com.example.suraagh_deliverable_1.ui.auth.contract;
 
 public interface AuthContract {
     interface BaseView {

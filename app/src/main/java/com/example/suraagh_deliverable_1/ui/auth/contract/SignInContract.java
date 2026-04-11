@@ -1,6 +1,6 @@
-package com.example.suraagh.ui.auth.contract;
+package com.example.suraagh_deliverable_1.ui.auth.contract;
 
-import com.example.suraagh.ModelClasses.User;
+import com.example.suraagh_deliverable_1.ModelClasses.User;
 
 public interface SignInContract {
     interface View extends AuthContract.BaseView {

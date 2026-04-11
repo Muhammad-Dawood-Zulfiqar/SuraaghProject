@@ -1,9 +1,9 @@
-package com.example.suraagh.ui.auth.service;
+package com.example.suraagh_deliverable_1.ui.auth.service;
 
-import com.example.suraagh.ModelClasses.User;
-import com.example.suraagh.ui.auth.contract.AuthContract;
-import com.example.suraagh.ui.auth.contract.SignInContract;
-import com.example.suraagh.Utilities.FirebaseManager;
+import com.example.suraagh_deliverable_1.ModelClasses.User;
+import com.example.suraagh_deliverable_1.ui.auth.contract.AuthContract;
+import com.example.suraagh_deliverable_1.ui.auth.contract.SignInContract;
+import com.example.suraagh_deliverable_1.Utilities.FirebaseManager;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;

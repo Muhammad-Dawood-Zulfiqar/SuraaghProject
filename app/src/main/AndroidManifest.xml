@@ -27,33 +27,28 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Suraagh_Deliverable_1">
+        android:theme="@style/Theme.suraagh_deliverable_1">
         <activity
             android:name=".SplashScreen"
-            android:exported="false">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".chat.ChatFragment"
-            android:exported="false" />
-        <activity
-            android:name=".ui.fragments.MatchesFragment"
-            android:exported="false" />
+
         <activity
             android:name=".AddPost"
             android:exported="false"
-            android:theme="@style/Theme.Suraagh_Deliverable_1" />
+            android:theme="@style/Theme.suraagh_deliverable_1" />
         <activity
             android:name=".ui.auth.view.RegisterActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false"
-            android:theme="@style/Theme.Suraagh_Deliverable_1" /> <!-- <provider -->
+            android:theme="@style/Theme.suraagh_deliverable_1" /> <!-- <provider -->
         <!-- android:name="androidx.core.content.FileProvider" -->
         <!-- android:authorities="com.example.suraagh.fileprovider" -->
         <!-- android:exported="false" -->

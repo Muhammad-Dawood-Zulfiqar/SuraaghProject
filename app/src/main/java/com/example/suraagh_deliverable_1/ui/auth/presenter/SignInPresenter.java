@@ -1,9 +1,9 @@
-package com.example.suraagh.ui.auth.presenter;
+package com.example.suraagh_deliverable_1.ui.auth.presenter;
 
-import com.example.suraagh.ModelClasses.User;
-import com.example.suraagh.ui.auth.contract.AuthContract;
-import com.example.suraagh.ui.auth.contract.SignInContract;
-import com.example.suraagh.Utilities.Validator;
+import com.example.suraagh_deliverable_1.ModelClasses.User;
+import com.example.suraagh_deliverable_1.ui.auth.contract.AuthContract;
+import com.example.suraagh_deliverable_1.ui.auth.contract.SignInContract;
+import com.example.suraagh_deliverable_1.Utilities.Validator;
 
 public class SignInPresenter implements SignInContract.Presenter {
 

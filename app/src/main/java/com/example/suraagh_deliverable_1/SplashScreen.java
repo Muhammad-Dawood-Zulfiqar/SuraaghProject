@@ -1,4 +1,4 @@
-package com.example.suraagh;
+package com.example.suraagh_deliverable_1;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -10,9 +10,9 @@ import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.suraagh.Utilities.FirebaseManager;
-import com.example.suraagh.Utilities.LocalStorage; // Import this
-import com.example.suraagh.ui.auth.view.SignInActivity;
+import com.example.suraagh_deliverable_1.Utilities.FirebaseManager;
+import com.example.suraagh_deliverable_1.Utilities.LocalStorage; // Import this
+import com.example.suraagh_deliverable_1.ui.auth.view.SignInActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 

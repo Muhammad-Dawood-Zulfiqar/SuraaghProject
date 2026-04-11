@@ -1,4 +1,4 @@
-package com.example.suraagh.ui.auth.view;
+package com.example.suraagh_deliverable_1.ui.auth.view;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,22 +14,22 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.suraagh.Database.DataBaseGetFoundPosts;
-import com.example.suraagh.Database.DatabaseGetLostPosts;
-import com.example.suraagh.Firebase.CallBackForGetPost;
-import com.example.suraagh.Firebase.FirebaseGetFoundPosts;
-import com.example.suraagh.Firebase.FirebaseGetLostPosts;
-import com.example.suraagh.MainActivity;
-import com.example.suraagh.ModelClasses.FoundPost;
-import com.example.suraagh.ModelClasses.LostPost;
-import com.example.suraagh.ModelClasses.Post;
-import com.example.suraagh.R;
-import com.example.suraagh.ModelClasses.User;
-import com.example.suraagh.Utilities.LocalStorage;
-import com.example.suraagh.ui.auth.contract.SignInContract;
-import com.example.suraagh.ui.auth.presenter.SignInPresenter;
-import com.example.suraagh.ui.auth.service.FirebaseSignInService;
-import com.example.suraagh.Utilities.FirebaseManager;
+import com.example.suraagh_deliverable_1.Database.DataBaseGetFoundPosts;
+import com.example.suraagh_deliverable_1.Database.DatabaseGetLostPosts;
+import com.example.suraagh_deliverable_1.Firebase.CallBackForGetPost;
+import com.example.suraagh_deliverable_1.Firebase.FirebaseGetFoundPosts;
+import com.example.suraagh_deliverable_1.Firebase.FirebaseGetLostPosts;
+import com.example.suraagh_deliverable_1.MainActivity;
+import com.example.suraagh_deliverable_1.ModelClasses.FoundPost;
+import com.example.suraagh_deliverable_1.ModelClasses.LostPost;
+import com.example.suraagh_deliverable_1.ModelClasses.Post;
+import com.example.suraagh_deliverable_1.R;
+import com.example.suraagh_deliverable_1.ModelClasses.User;
+import com.example.suraagh_deliverable_1.Utilities.LocalStorage;
+import com.example.suraagh_deliverable_1.ui.auth.contract.SignInContract;
+import com.example.suraagh_deliverable_1.ui.auth.presenter.SignInPresenter;
+import com.example.suraagh_deliverable_1.ui.auth.service.FirebaseSignInService;
+import com.example.suraagh_deliverable_1.Utilities.FirebaseManager;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.textfield.TextInputLayout;

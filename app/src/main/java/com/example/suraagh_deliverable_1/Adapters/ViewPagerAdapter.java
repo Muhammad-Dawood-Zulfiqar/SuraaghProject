@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 import com.example.suraagh_deliverable_1.chat.ChatFragment;
+import com.example.suraagh_deliverable_1.ui.fragments.AccountFragment;
 import com.example.suraagh_deliverable_1.ui.fragments.ManagePostsFragment;
 import com.example.suraagh_deliverable_1.ui.fragments.MatchesFragment;
 
