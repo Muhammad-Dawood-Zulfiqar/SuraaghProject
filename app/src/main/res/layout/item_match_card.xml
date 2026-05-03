@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:strokeColor="#E0E0E0"
+    app:strokeWidth="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <!-- Single Image (Small Square) -->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imgMatch"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gradient_bottom_shadow"
+            app:shapeAppearanceOverlay="@style/RoundedCornerImage"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <!-- Title (e.g., Blue Bag) -->
+        <TextView
+            android:id="@+id/tvItemName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="Item Name"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toEndOf="@id/imgMatch"
+            app:layout_constraintTop_toTopOf="@id/imgMatch"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <!-- Match Percentage Badge -->
+        <TextView
+            android:id="@+id/tvMatchPercent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="95% Match"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/bg_match_percent"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="@id/tvItemName"
+            app:layout_constraintTop_toBottomOf="@id/tvItemName"/>
+
+        <!-- Location/Date (Subtext) -->
+        <TextView
+            android:id="@+id/tvMatchDetails"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Found near Central Park • 2 days ago"
+            android:textSize="12sp"
+            android:textColor="#757575"
+            android:layout_marginTop="4dp"
+            app:layout_constraintStart_toStartOf="@id/tvItemName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvMatchPercent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>
