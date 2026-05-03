@@ -48,6 +48,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+
 
     //AI
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
